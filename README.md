@@ -10,9 +10,7 @@ Este es el proyecto de portafolio profesional de **Jesús Castillo**, diseñado 
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Estructura de Carpetas](#estructura-de-carpetas)
-- [Capturas de Pantalla](#capturas-de-pantalla)
-- [Licencia](#licencia)
+
 
 ---
 
