@@ -1,9 +1,61 @@
-# React + Vite
+# Portfolio Web de Jesús Castillo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el proyecto de portafolio profesional de **Jesús Castillo**, diseñado para presentar experiencia profesional, proyectos destacados y habilidades. La aplicación está desarrollada con **React**, estilizada con **CSS** y utiliza **FontAwesome** para íconos. El diseño moderno incluye **Glassmorphism** para una experiencia visual atractiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# portfolio
+## Tabla de Contenidos
+
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura de Carpetas](#estructura-de-carpetas)
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Licencia](#licencia)
+
+---
+
+## Características
+
+- **Roles Dinámicos**: Animación que muestra los diferentes roles profesionales.
+- **Navegación Suave**: Desplazamiento fluido a las secciones mediante la barra de navegación.
+- **Proyectos Destacados**: Muestra proyectos con tecnologías utilizadas.
+- **Enlaces a Redes Sociales**: Acceso rápido a perfiles de GitHub y LinkedIn.
+- **Diseño Responsivo**: Optimizado para dispositivos móviles, tabletas y escritorios.
+- **Glassmorphism**: Diseño moderno para destacar los proyectos.
+
+---
+
+## Tecnologías Utilizadas
+
+Este portafolio utiliza las siguientes herramientas y frameworks:
+
+- **React**: Librería de JavaScript para construir interfaces de usuario.
+- **CSS**: Estilización personalizada para diseño y responsividad.
+- **FontAwesome**: Librería de íconos para una representación visual atractiva.
+- **Íconos de FontAwesome Usados**:
+  - Lenguajes de programación: Python, PHP
+  - Frameworks: Laravel, React, Vue.js
+  - Herramientas: Figma, MySQL, TailwindCSS
+- **Diseño Web**:
+  - Glassmorphism para tarjetas modernas y atractivas.
+  - Animaciones con **keyframes** de CSS.
+
+---
+
+## Instalación
+
+Sigue estos pasos para ejecutar este proyecto localmente:
+
+### Prerrequisitos
+
+- [Node.js](https://nodejs.org/) instalado en tu máquina.
+- Un editor de código como [VS Code](https://code.visualstudio.com/).
+
+### Pasos de Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/ouroboros1599/portfolio.git
+   cd portfolio
