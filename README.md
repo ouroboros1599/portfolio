@@ -9,7 +9,6 @@ Este es el proyecto de portafolio profesional de **Jesús Castillo**, diseñado 
 - [Características](#características)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Instalación](#instalación)
-- [Uso](#uso)
 
 
 ---
