@@ -68,20 +68,3 @@ Sigue estos pasos para ejecutar este proyecto localmente:
 6. Abre tu nagador y navega a:
    ```bash
    http://localhost:{tu_puerto_asignado}
-  
-## Estructura de carpetas 
-portfolio/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── assets/
-│   │   ├── hero_setup.webp
-│   │   └── me.png
-│   ├── App.css
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-├── package.json
-└── README.md
-
