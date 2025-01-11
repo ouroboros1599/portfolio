@@ -54,14 +54,14 @@ function App() {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-  };  
+  };
 
   return (
     <>
       <div className='principal-content'>
         <header id='header' className='header'>
           <div className='nav-logo'>
-            <img src={logo} alt="Logo" onClick={() => handleNavigationClick('home')}/>
+            <img src={logo} alt="Logo" onClick={() => handleNavigationClick('home')} />
           </div>
           <div
             className={`burger ${menuOpen ? 'open' : ''}`}
@@ -72,12 +72,12 @@ function App() {
             <div></div>
           </div>
           <div className={`nav-navigation ${menuOpen ? 'open' : ''}`}>
-          <nav id='navbar' className='navbar'>
-            <a onClick={() => handleNavigationClick('home')}>Inicio</a>
-            <a onClick={() => handleNavigationClick('proyects')}>Proyectos</a>
-            <a onClick={() => handleNavigationClick('about')}>Acerca de</a>
-            <a onClick={() => handleNavigationClick('contact')}>Contacto</a>
-          </nav>
+            <nav id='navbar' className='navbar'>
+              <a onClick={() => handleNavigationClick('home')}>Inicio</a>
+              <a onClick={() => handleNavigationClick('proyects')}>Proyectos</a>
+              <a onClick={() => handleNavigationClick('about')}>Acerca de</a>
+              <a onClick={() => handleNavigationClick('contact')}>Contacto</a>
+            </nav>
           </div>
           <div className='nav-social'>
             <div className='github-icon'>
@@ -105,18 +105,46 @@ function App() {
                 <p className="presentation-text">Ingeniero Civil Informático</p>
               </div>
               <div className='presentation-card'>
-                <img src={ me } alt="me" className='me-img' />
+                <img src={me} alt="me" className='me-img' />
               </div>
             </div>
           </section>
           <section id='proyects' className='proyects'>
             <div className="proyects">
               <div className="grid">
+
+                <div className="proyect-card">
+                  <h3 className="proyect-title">Gestión de paradas mayores</h3>
+                  <p className="proyect-description">
+                    Diseñé y lideré la implementación de un sistema de gestión de paradas mayores para SMEC Chile,
+                    asegurando un desarrollo eficiente y alineado con los objetivos estratégicos de la organización.
+                    Durante la planificación, implementé buenas prácticas de gestión y utilicé el enfoque estructurado del PMBOK para las etapas de monitoreo y control.
+                  </p>
+                  <p className='tech-title'>Tecnologías</p>
+                  <div className="technologies">
+                    <div className='laravel-icon'>
+                      <FontAwesomeIcon icon={['fab', 'laravel']} size="2x" />
+                    </div>
+                    <div className='github-icon'>
+                      <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
+                    </div>
+                    <div className='vue-icon'>
+                      <FontAwesomeIcon icon={['fab', 'vuejs']} size="2x" />
+                    </div>
+                    <div className='figma-icon'>
+                      <FontAwesomeIcon icon={['fab', 'figma']} size="2x" />
+                    </div>
+                    <div className='mysql-icon'>
+                      <FontAwesomeIcon icon={['fas', 'database']} size="2x" />
+                    </div>
+                  </div>
+                </div>
+
                 <div className="proyect-card">
                   <h3 className="proyect-title">Videojuego</h3>
                   <p className="proyect-description">
-                    Planifiqué y ejecuté el desarrollo de un videojuego enfocado en la convivencia escolar para el Colegio Dr. Adriano Machado Pardo. 
-                    Durante la planificación, implementé buenas prácticas de gestión y utilicé el enfoque estructurado del PMBOK para las etapas de monitoreo y control. 
+                    Planifiqué y ejecuté el desarrollo de un videojuego enfocado en la convivencia escolar para el Colegio Dr. Adriano Machado Pardo.
+                    Durante la planificación, implementé buenas prácticas de gestión y utilicé el enfoque estructurado del PMBOK para las etapas de monitoreo y control.
                   </p>
                   <p className='tech-title'>Tecnologías</p>
                   <div className="technologies">
@@ -141,7 +169,7 @@ function App() {
                 <div className="proyect-card">
                   <h3 className="proyect-title">Modelo predictivo</h3>
                   <p className="proyect-description">
-                    Desarrollé un modelo predictivo utilizando diferentes tecnologias logrando obtener un 99% de precisión. 
+                    Desarrollé un modelo predictivo utilizando diferentes tecnologias logrando obtener un 99% de precisión.
                     Este proyecto destaca por el uso de metodologias robustas en aprendizaje automatico para resultados altamente precisos.
                   </p>
                   <p className='tech-title'>Tecnologías</p>
@@ -162,31 +190,17 @@ function App() {
                 </div>
 
                 <div className="proyect-card">
-                  <h3 className="proyect-title">Gestión de paradas mayores</h3>
+                  <h3 className="proyect-title">Bot Scrapper</h3>
                   <p className="proyect-description">
-                  Diseñé y lideré la implementación de un sistema de gestión de paradas mayores para SMEC Chile, 
-                  asegurando un desarrollo eficiente y alineado con los objetivos estratégicos de la organización.
-                  Durante la planificación, implementé buenas prácticas de gestión y utilicé el enfoque estructurado del PMBOK para las etapas de monitoreo y control.
+                    Desarrollé un bot que hace scrapping a una web inmobiliaria española.
+                    Este proyecto destaca por el uso de metodologias robustas en aprendizaje automatico para resultados altamente precisos.
                   </p>
                   <p className='tech-title'>Tecnologías</p>
                   <div className="technologies">
-                    <div className='laravel-icon'>
-                      <FontAwesomeIcon icon={['fab', 'laravel']} size="2x" />
-                    </div>
-                    <div className='github-icon'>
-                      <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
-                    </div>
-                    <div className='vue-icon'>
-                      <FontAwesomeIcon icon={['fab', 'vuejs']} size="2x" />
-                    </div>
-                    <div className='figma-icon'>
-                      <FontAwesomeIcon icon={['fab', 'figma']} size="2x" />
-                    </div>
-                    <div className='mysql-icon'>
-                      <FontAwesomeIcon icon={['fas', 'database']} size="2x" />
+                    <div className='python-icon'>
+                      <FontAwesomeIcon icon={['fab', 'python']} size="2x" />
                     </div>
                   </div>
-
                 </div>
 
               </div>
