@@ -64,7 +64,7 @@ Sigue estos pasos para ejecutar este proyecto localmente:
    npm install
 4. Inicia el servidor de desarrollo
    ```bash
-   npm start o npm run dev
+   npm start 
 6. Abre tu nagador y navega a:
    ```bash
    http://localhost:{tu_puerto_asignado}
