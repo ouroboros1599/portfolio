@@ -59,3 +59,29 @@ Sigue estos pasos para ejecutar este proyecto localmente:
    ```bash
    git clone https://github.com/ouroboros1599/portfolio.git
    cd portfolio
+2. Instala las dependencias
+   ```bash
+   npm install
+4. Inicia el servidor de desarrollo
+   ```bash
+   npm start o npm run dev
+6. Abre tu nagador y navega a:
+   ```bash
+   http://localhost:{tu_puerto_asignado}
+  
+## Estructura de carpetas 
+portfolio/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── hero_setup.webp
+│   │   └── me.png
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
+
