@@ -207,7 +207,28 @@ function App() {
             </div>
           </section>
           <section id='about' className='about'>
-            <h1>about</h1>
+            <div className='about-content'>
+              <div className='about-text'>
+                <h2>Acerca de mí</h2>
+                <p>
+                  ¡Hola! Soy Jesús Castillo, un apasionado Ingeniero Civil Informático con más de 4 años de experiencia 
+                  en el desarrollo de software. Me especializo en crear aplicaciones web modernas, eficientes y escalables.
+                </p>
+                <p>
+                  Mi enfoque se centra en la innovación tecnológica, utilizando metodologías ágiles y un enfoque basado en el 
+                  aprendizaje continuo para diseñar soluciones que tengan un impacto real. Disfruto trabajar en equipo y afrontar retos técnicos que permitan 
+                  aprender y crecer.
+                </p>
+                <p>
+                  Fuera del trabajo, me encanta explorar nuevas tecnologías, practicar senderismo y compartir mi pasión por el desarrollo de software 
+                  con la comunidad a través de mentorías y proyectos colaborativos.
+                </p>
+                <p>¿Interesado en colaborar? ¡Contáctame para trabajar juntos en tu próximo proyecto!</p>
+              </div>
+              <div className='about-image'>
+                <img src={me} alt="Jesús Castillo" className='about-img' />
+              </div>
+            </div>
           </section>
           <section id='contact' className='contact'>
             <h1>contact</h1>

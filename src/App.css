@@ -243,7 +243,7 @@
 }
 
 .me-img:hover {
-  transform: scale(1.3) rotate(360deg);
+  transform: scale(1.4) rotate(360deg);
 }
 
 /* Project Cards */
@@ -264,7 +264,7 @@
   height: 400px;
   box-shadow: 0 8px 6px rgba(0, 0, 0, 1);
   text-align: center;
-  position: relative; /* Esto es importante para posicionar los elementos internos */
+  position: relative; 
   transition: transform 0.4s ease, background 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -279,8 +279,8 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
-  position: absolute; /* Fija la posición de las tecnologías */
-  bottom: 20px; /* Las posiciona al fondo del card */
+  position: absolute; 
+  bottom: 20px; 
   left: 0;
   right: 0;
   margin: auto;
@@ -307,7 +307,66 @@
   font-size: 1rem;
   color: var(--secondary-color);
   text-align: justify;
-  margin-bottom: 50px; /* Asegura que no se solape con las tecnologías */
+  margin-bottom: 50px; 
+}
+
+/* About Section */
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-color);
+  padding: 50px 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  align-items: center;
+  text-align: left;
+}
+
+.about-text {
+  flex: 1;
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--text-color);
+  text-align: justify;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--hover-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-text p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.about-img:hover {
+  transform: scale(1.2) rotate(360deg);
 }
 
 
